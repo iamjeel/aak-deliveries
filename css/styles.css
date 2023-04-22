@@ -1,0 +1,47 @@
+html, body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	line-height: 2rem;
+}
+
+img{
+	width: 15vh;
+	height: 15vh;
+}
+
+ul{
+	padding-left: 0;
+}
+
+li{
+	list-style-type: none;
+	padding: 0.7rem;
+}
+
+a{
+	text-decoration: none;
+	color: #4F4557;
+	padding: 1.3rem;
+}
+
+h1{
+	font-family: 'Roboto Mono', monospace;
+}
+
+hr{
+	width: 0.5%;
+	border-top:8px dotted red;
+}
+.wrapper{
+	text-align: center;
+	width: 80%;
+	padding: auto;
+	margin: auto;
+}
+
+@media only screen and (min-width: 769px) {
+
+li{
+	display: inline;
+}
+}
